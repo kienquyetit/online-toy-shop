@@ -1,0 +1,7 @@
+header.container-fluid {
+    background-image: url('./assets/banner.jpg');
+    height: 100%;
+}
+.top-menu {
+    background-color: transparent !important;
+}
