@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import Posts from './components/Posts';
-import Postform from './components/Postform';
+import Home from './components/Home/Home'
 
 import Header from './layouts/Header/Header'
 
@@ -15,11 +13,9 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-          <Header />
-          <Postform />
-          <Posts />
+        <Header />
+        <Home />
       </Provider>
-
     );
   }
 }

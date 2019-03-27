@@ -1,7 +1,43 @@
 header.container-fluid {
     background-image: url('./assets/banner.jpg');
     height: 100%;
+    background-size: cover;
 }
+
 .top-menu {
     background-color: transparent !important;
+    padding: 50px 10px;
+}
+
+.top-menu a.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white !important;
+}
+
+.top-menu li.nav-item.active a.nav-link {
+    color: #007bff !important;
+}
+
+.intro-text {
+    background-color: #d00306;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 50px;
+    color: white !important;
+}
+
+.search-text {
+    border: 1px solid #d00306;
+}
+
+.search-text:focus {
+    box-shadow: none;
+}
+
+.search-button {
+    background-color: #d00306;
+    border: 1px solid #d00306;
+    color: white;
 }
