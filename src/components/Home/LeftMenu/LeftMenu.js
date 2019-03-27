@@ -11,7 +11,7 @@ class LeftMenu extends Component {
                 <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                     <div id="accordion">
                         <div className="card">
-                            <div className="card-header">
+                            <div className="card-header category-title-card-header">
                                 <h5 className="mb-0">
                                     <button className="btn btn-link category-title" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Department
@@ -44,7 +44,7 @@ class LeftMenu extends Component {
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-header">
+                            <div className="card-header category-title-card-header">
                                 <h5 className="mb-0">
                                     <button className="btn btn-link category-title collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Collapsible Group Item #2
@@ -77,7 +77,7 @@ class LeftMenu extends Component {
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-header" id="headingThree">
+                            <div className="card-header category-title-card-header" id="headingThree">
                                 <h5 className="mb-0">
                                     <button className="btn btn-link category-title collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Collapsible Group Item #3

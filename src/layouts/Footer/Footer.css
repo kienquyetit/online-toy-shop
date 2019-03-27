@@ -1,0 +1,17 @@
+footer.container-fluid {
+    background-color: #f46a4e;
+    color: #fff;
+}
+
+.title-footer {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.line-bottom {
+    background-color: #fff;
+}
+
+.main-content-footer {
+    padding: 16px 0;
+}

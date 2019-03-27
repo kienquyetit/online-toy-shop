@@ -20,7 +20,7 @@ header.container-fluid {
 }
 
 .intro-text {
-    background-color: #d00306;
+    background-color: #f46a4e;
     font-size: 45px;
     font-weight: bold;
     padding: 14px;
@@ -29,7 +29,7 @@ header.container-fluid {
 }
 
 .search-text {
-    border: 1px solid #d00306;
+    border: 1px solid #f46a4e;
 }
 
 .search-text:focus {
@@ -37,7 +37,7 @@ header.container-fluid {
 }
 
 .search-button {
-    background-color: #d00306;
-    border: 1px solid #d00306;
+    background-color: #f46a4e;
+    border: 1px solid #f46a4e;
     color: white;
 }

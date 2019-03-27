@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home/Home'
 
 import Header from './layouts/Header/Header'
+import Footer from './layouts/Footer/Footer'
 
 import { Provider } from 'react-redux';
 
@@ -15,6 +16,7 @@ class App extends Component {
       <Provider store={store}>
         <Header />
         <Home />
+        <Footer />
       </Provider>
     );
   }

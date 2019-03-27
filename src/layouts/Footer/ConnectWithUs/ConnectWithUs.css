@@ -1,0 +1,40 @@
+.social-network {
+    position: relative;
+}
+
+.social-network-icon {
+    border-radius: 50%;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.social-network-name {
+    padding-left: 40px;
+}
+
+.facebook-icon {
+    background-color: #3b5998;
+}
+
+.google-plus-icon {
+    background-color: #d34836;
+}
+
+.linked-in-icon {
+    background-color: #0077b5;
+}
+
+.twitter-icon {
+    background-color: #38A1F3;
+}
+
+.youtube-icon {
+    background-color: #ED3833;
+}
+
+.bloger-icon {
+    background-color: #f57d00;
+}

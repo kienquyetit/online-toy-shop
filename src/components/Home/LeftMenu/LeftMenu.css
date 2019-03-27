@@ -80,8 +80,12 @@
 }
 
 .category-title {
-    color: black;
+    color: #ffffff;
 }
 .category-title:hover {
-    color: black;
+    color: #ffffff;
+}
+
+.category-title-card-header {
+    background-color: #f46a4e;
 }
